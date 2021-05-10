@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "f+tFS1k0wqtPRrpp5Hx4DZA2PfA7ERD9ubP2O4loUN2h66bcERk0TW59m9F0gYnG7VZi/v3MuKLdKFpr6aacYg==",
+  "success": false,
+  "projectFilePath": "C:\\work\\c#\\diary\\diaryApp\\diaryApp\\diaryApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "パッケージ Microsoft.NETCore.App.Runtime.win-x64 が見つかりません。ソース Microsoft Visual Studio Offline Packages には、この ID のパッケージが存在しません。",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "パッケージ Microsoft.WindowsDesktop.App.Runtime.win-x64 が見つかりません。ソース Microsoft Visual Studio Offline Packages には、この ID のパッケージが存在しません。",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "パッケージ Microsoft.AspNetCore.App.Runtime.win-x64 が見つかりません。ソース Microsoft Visual Studio Offline Packages には、この ID のパッケージが存在しません。",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

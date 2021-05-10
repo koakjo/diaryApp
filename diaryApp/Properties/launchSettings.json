@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "diaryApp": {
+      "commandName": "Executable",
+      "executablePath": "C:\\work\\c#\\diary\\diaryApp\\diaryApp\\bin\\Release\\net5.0-windows\\diaryApp.exe",
+      "workingDirectory": "C:\\work\\c#\\diary\\diaryApp\\diaryApp\\bin\\Release\\net5.0-windows"
+    }
+  }
+}
