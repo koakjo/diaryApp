@@ -91,10 +91,16 @@ namespace diaryApp
                 if (Directory.Exists(monthFolderPath)==false) { Directory.CreateDirectory(monthFolderPath); }
 
                 // 気構えファイルの存在チェック、なければ作る
-                if (File.Exists(monthKIGAMAEfilePath)==false) { File.CreateText(monthKIGAMAEfilePath); }
+                if (File.Exists(monthKIGAMAEfilePath)==false) { 
+                    StreamWriter kigamaeWriter = File.CreateText(monthKIGAMAEfilePath);
+                    kigamaeWriter.Dispose();
+                }
 
                 // 該当日ファイルの存在チェック、なければ作る
-                if (File.Exists(dayFilePath) == false) { File.CreateText(dayFilePath); }
+                if (File.Exists(dayFilePath) == false) { 
+                    StreamWriter dayWriter = File.CreateText(dayFilePath);
+                    dayWriter.Dispose();
+                }
 
 
                 //気構えファイルを読み込み、気構えフィールドに展開
